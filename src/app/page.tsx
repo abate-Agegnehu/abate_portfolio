@@ -13,24 +13,23 @@ const Home = () => {
             <span className="text-xl">Software developer</span>
             <h2 className="h2 mb-6">
               Hello I&apos;m <br />{" "}
-              <span className="text-accent">Leliso Agegnehu</span>
+              <span className="text-accent">Abate Agegnehu</span>
             </h2>
             <p className="max-w-[500px] mb-9 text-white/80">
-              Results-driven software engineer with 5 years of experience in
-              backend-heavy full-stack development. Highly skilled in designing
-              and implementing scalable, secure, and efficient backend systems
-              using modern frameworks like Node.js, Remix, and Next.js.
-              Demonstrated ability to lead complex projects from concept to
-              deployment, with deep proficiency in TypeScript, PostgreSQL,
-              Prisma, and BDD methodologies. Known for clean architecture,
-              API-first design, and mentoring teams on best practices.
-              Passionate about building robust solutions that drive business
-              outcomes.
+              Results-driven full-stack developer specializing in MERN, Next.js,
+              and Spring Boot. Skilled in designing and building scalable,
+              secure, and efficient backend systems, with a strong focus on
+              clean architecture and API-first development. Experienced in
+              developing end-to-end solutions using TypeScript, Node.js, React,
+              PostgreSQL, MongoDB, and Prisma. Adept at transforming complex
+              requirements into high-quality products, collaborating across
+              teams, and applying best engineering practices. Passionate about
+              creating reliable software that delivers real business value.
             </p>
 
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a
-                href="https://drive.google.com/file/d/1dy_pDpt-O_NB4GdJ-wpUs9c0I6nXzEDS/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1ujLkesPYfWa-wvIvjijhzSNMAJMuNIFB/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >

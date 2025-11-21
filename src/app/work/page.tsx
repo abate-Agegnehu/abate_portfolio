@@ -18,108 +18,57 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 import { Swiper as SwiperType } from "swiper/types";
 
 const projects = [
+  // ---------- CLIENT PROJECTS ----------
   {
     number: "01",
-    category: " ",
-    title: "FetroAder ",
+    category: "Client Project",
+    title: "ALIKAB Import Export",
     describtion:
-      "Led backend development for a freelance, job, and affiliate platform. Built scalable APIs, managed authentication, and created an internal admin dashboard.",
-    // stack: [
-    //   { name: "Next.js" },
-    //   { name: "TypeScript" },
-    //   { name: "Tailwind CSS" },
-    // ],
-
-    image: "/thumbnail.jpg",
-    live: "https://fetroader.com/",
+      "Developed a modern, responsive website for ALIKAB IMPORT EXPORT showcasing services in trade, transport, agriculture, and consulting with a clean and professional UI.",
+    image: "/alikab.png",
+    live: "https://alikab-import-export.vercel.app/",
     gitub: "",
   },
   {
     number: "02",
-    category: " ",
-    title: "Sewasew Multimedia",
+    category: "Client Project",
+    title: "Aymax Trading",
     describtion:
-      "Developed a subscription-based service including CRBT, a rewards program, and an agent system. Built backend logic for digital content delivery and payment workflows.",
-    // stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/thumbnail.jpg",
-    live: "https://subscription.sewasewmusic.com/",
+      "Built a product-focused website for Aymax Trading highlighting high-quality wood products with an intuitive layout and strong branding.",
+    image: "/aymax.png",
+    live: "https://aymaxtrading.com/",
     gitub: "",
   },
   {
     number: "03",
-    category: " ",
-    title: "Qegnet",
+    category: "Client Project",
+    title: "Awura Tech PLC – Landing Page",
     describtion:
-      "Delivered a contest platform supporting user registration, talent submission, and real-time result tracking. Designed backend logic and frontend modules to create an interactive user experience.",
-    // stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/thumbnail.jpg",
-    live: "https://qegnet.et/home-page",
+      "Created a clean, modern landing page for Awura Computing PLC to present their technology services and innovative solutions.",
+    image: "/awura.png",
+    live: "https://awuratech.netlify.app/",
     gitub: "",
   },
+
+  // ---------- PERSONAL PROJECTS ----------
   {
     number: "04",
-    category: " ",
-    title: "Ride Host App",
+    category: "Personal Project",
+    title: "Moviemonia – Movie Landing Page",
     describtion:
-      "Engineered a backend system to enable ride scheduling and payment processing for clients, including RidePlus and Telebirr integrations. Implemented real-time tracking and notifications using Socket.io.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/thumbnail.jpg",
-    live: "",
+      "Designed an engaging movie-themed landing page with smooth animations, responsive layout, and an attractive design.",
+    image: "/moviemonia.png",
+    live: "https://moviemonia.netlify.app/",
     gitub: "",
   },
   {
     number: "05",
-    category: " ",
-    title: "CNCM",
+    category: "Personal Project",
+    title: "Personal Portfolio",
     describtion:
-      "Designed the backend for a copyright and neighboring rights management system. Implemented user permissions, work registration, and royalty distribution logic.",
-    // stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/thumbnail.jpg",
-    live: "https://cncmethiopia.com/",
-    gitub: "",
-  },
-  {
-    number: "06",
-    category: " ",
-    title: "MPSS Client",
-    describtion:
-      "Built and maintained core frontend modules for a hospital management system handling attendance, scheduling, HR, and payroll workflows. Designed interactive dashboards and integrated with backend HR services.",
-    // stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/thumbnail.jpg",
-    live: " ",
-    gitub: "",
-  },
-  {
-    number: "07",
-    category: " ",
-    title: "ALERT Comprehensive Specialized Hospital ",
-    describtion:
-      " Developed a dynamic public-facing website for hospital news, announcements, and online appointment bookings.",
-    // stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/thumbnail.jpg",
-    live: "https://alerthospital.gov.et/",
-    gitub: "",
-  },
-  {
-    number: "08",
-    category: " ",
-    title: "HypsooPharma",
-    describtion:
-      "Developed core functionalities for a medicine delivery platform connecting users to nearby pharmacies. Contributed to both UI and backend logic for order management and pharmacy lookup features.",
-    // stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/thumbnail.jpg",
-    live: "",
-    gitub: "",
-  },
-  {
-    number: "09",
-    category: " ",
-    title: "Marketing & UI/UX Design",
-    describtion:
-      " Delivered visual assets and design systems for internal and client projects. Created interactive wireframes and prototypes for web and mobile applications.",
-    // stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/thumbnail.jpg",
-    live: "",
+      "Developed a fully responsive portfolio website showcasing my projects, skills, and experience with a modern UI.",
+    image: "/personal.png",
+    live: "https://abateprotfolio.netlify.app/",
     gitub: "",
   },
 ];
@@ -205,9 +154,10 @@ const Work = () => {
                       <div className="relative w-full h-full">
                         <Image
                           src={project.image}
+                          alt={project.title}
                           fill
-                          className="object-cover"
-                          alt="thumbinail"
+                          style={{ objectFit: "contain" }} // <-- make full image visible
+                          className="rounded-md" // optional: rounded corners
                         />
                       </div>
                     </div>

@@ -32,20 +32,6 @@ const services = [
       "Building complete applications from front to back with seamless integration and clean architecture.",
     href: "",
   },
-  {
-    number: "05",
-    title: "DevOps",
-    description:
-      "Implementing CI/CD pipelines, containerization with Docker, orchestration with Kubernetes, and cloud deployment.",
-    href: "",
-  },
-  {
-    number: "06",
-    title: "Social Media Management",
-    description:
-      "Strategizing and managing content across platforms to grow brand presence and drive user engagement.",
-    href: "",
-  },
 ];
 
 const Services = () => {

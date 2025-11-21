@@ -22,7 +22,7 @@ const Photo = () => {
           className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] rounded-full overflow-hidden absolute"
         >
           <Image
-            src="/leliso.png"
+            src="/abate.png"
             alt="photo"
             priority
             quality={100}

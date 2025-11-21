@@ -13,27 +13,20 @@ import { SiAzuredevops } from "react-icons/si";
 const socials = [
   {
     icon: <FaGithub />,
-    path: "https://github.com/lelisoAgegnehu",
+    path: "https://github.com/abate-Agegnehu",
   },
   {
     icon: <FaGitlab />,
-    path: "https://gitlab.com/leliso",
+    path: "https://gitlab.com/abateagegnehu",
   },
-  {
-    icon: <SiAzuredevops />,
-    path: "https://dev.azure.com/your-azure-devops-profile",
-  },
+
   {
     icon: <FaLinkedinIn />,
-    path: "https://www.linkedin.com/in/leliso/",
+    path: "https://www.linkedin.com/in/abate-agegnehu-a78a84294/",
   },
   {
     icon: <FaTelegram />,
-    path: "https://web.telegram.org/k/#@leliso_a",
-  },
-  {
-    icon: <FaTwitter />,
-    path: "https://x.com/Leliso4",
+    path: "https://web.telegram.org/k/#@Abatae5",
   },
 ];
 

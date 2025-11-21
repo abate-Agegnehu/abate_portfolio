@@ -171,7 +171,7 @@ const Contact = () => {
                     <SelectItem value="Full Stack Development">
                       Full Stack Development
                     </SelectItem>
-                    <SelectItem value="DevOps">DevOps</SelectItem>
+
                     <SelectItem value="Social Media Management">
                       Social Media Management
                     </SelectItem>

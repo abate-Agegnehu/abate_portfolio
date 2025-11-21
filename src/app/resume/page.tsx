@@ -19,28 +19,30 @@ import {
   SiPrisma,
   SiDocker,
   SiAzuredevops,
+  SiSpringboot,
+  SiGit,
 } from "react-icons/si";
 import { MdOutlinePsychology } from "react-icons/md";
 const about = {
   title: "About me",
   description:
-    "I’m Leliso Agegnehu, Highly skilled Software Developer with over 5 years of experience designing, developing, and managing complex web applications and good front-end and back-end technologies knowledge. Proficient in JavaScript/TypeScript programming language, Demonstrated expertise in leveraging frameworks such as React, Node.js, Remix, and NextJs. to build scalable and efficient applications. I take the time to deeply understand my client's requirements and always deliver projects on time. I strive to provide a fair price, high-quality, and industry-grade web applications with best practices and state-of-the-art technologies.",
+    "I’m Abate Agegnehu, a highly skilled Software Developer with strong expertise in building modern, scalable, and efficient web applications. I specialize in full-stack development using JavaScript/TypeScript and frameworks such as React, Node.js, Next.js, and Spring Boot. I focus on writing clean, maintainable code and delivering solutions that meet real business needs. I take time to fully understand client requirements and consistently deliver high-quality, industry-grade applications following best practices and modern development standards.",
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Leliso Ag",
+      fieldValue: "Abate Agegnehu",
     },
     {
       fieldName: "Phone",
-      fieldValue: "+251-92-842-5097",
+      fieldValue: "+251-91-748-1145",
     },
     {
       fieldName: "Experience",
-      fieldValue: "5+ Years",
+      fieldValue: "5 Year Software engineering student",
     },
     {
       fieldName: "Skype",
-      fieldValue: "Leliso",
+      fieldValue: "Abate",
     },
     {
       fieldName: "Nationality",
@@ -61,37 +63,27 @@ const experience = {
   icon: "/",
   title: "My Experience",
   description:
-    "Highly skilled Software Developer with over 5 years of experience designing, developing, and managing complex web applications and good front-end and back-end technologies knowledge. Proficient in JavaScript/TypeScript programming language, Demonstrated expertise in leveraging frameworks such as React, Node.js, Remix, and NextJs. to build scalable and efficient applications. I take the time to deeply understand my client's requirements and always deliver projects on time. I strive to provide a fair price, high-quality, and industry-grade web applications with best practices and state-of-the-art technologies. ",
+    "Highly skilled Software Developer with strong expertise in designing, developing, and managing modern web applications across both front-end and back-end. Proficient in JavaScript and TypeScript, with hands-on experience using frameworks and technologies such as React, Node.js, Next.js, MongoDB, Express, and Spring Boot to build scalable and efficient applications. I follow clean architecture principles, use Git for version control, and focus on delivering reliable, high-quality solutions. I take time to fully understand client requirements and consistently deliver industry-grade applications using best practices and modern technologies. ",
   items: [
     {
-      company: "Two F Capital",
-      position: "Team Lead Full Stack Developer",
-      duration: "Oct 2024-Jun 2025",
+      company: "INSA (Information Network Security Agency)",
+      position: "Software Engineering Intern",
+      duration: "Feb 2025 – June 2025", // update if needed
     },
     {
-      company: "Two F Capital",
+      company: "Fintech Investment Company",
+      position: "Frontend Developer Intern",
+      duration: "June 2024 – Sep 2024", // update if needed
+    },
+    {
+      company: "Freelance / Personal Clients",
       position: "Full Stack Developer",
-      duration: "May 2023-Oct 2024",
+      duration: "2024 – Present",
     },
     {
-      company: "Two F Capital",
-      position: "Back End Developer",
-      duration: "May 2022-Apr 2023",
-    },
-    {
-      company: "Medket technology solutions",
-      position: "Frontend Developer",
-      duration: "Jun 2022-Feb 2024",
-    },
-    {
-      company: "Junior Software Developer",
-      position: "Qemer Software Technology PLC",
-      duration: "Nov 2021-Apr 2022",
-    },
-    {
-      company: "Internship",
-      position: "Bahir Dar ICT Business incubation center",
-      duration: "Sep 2020- Feb 2021",
+      company: "Wolkite University",
+      position: "Software Engineering Student",
+      duration: "2021 – Present",
     },
   ],
 };
@@ -100,56 +92,32 @@ const education = {
   icon: "/",
   title: "My Education",
   description:
-    "I have pursued formal education and self-directed learning in frontend, backend, full-stack development, DevOps, social media management, and prompt engineering. These experiences have equipped me with a diverse skill set to build and manage modern applications and digital presence effectively.",
+    "My education combines formal university training with continuous self-learning in full-stack development, cloud technologies, and modern software engineering practices.",
   items: [
     {
-      institution: "Mizan Tepi University",
-      url: "https://mtu.edu.et/",
-      degree: "Bachelor's Degree in Computer Science",
-      duration: "Sep 2017 - Aug 2021",
-    },
-    {
-      institution: "FreeCodeCamp",
-      url: "https://www.freecodecamp.org/certification/fcc141e5b95-4161-417c-ab72-5dd660bd1dd7/javascript-algorithms-and-data-structures",
-      degree: "Front End Development Certification",
-      duration: "2019-2021",
+      institution: "Wolkite University",
+      url: "",
+      degree: "Bachelor's Degree in Software Engineering",
+      duration: "2021 – Present",
     },
 
     {
       institution: "Udemy",
-      url: "https://www.udemy.com/certificate/UC-3e78a185-fa62-40fe-b8af-ed38d5930752/",
-      degree: "DevOps Fundamentals",
-      duration: "2022",
-    },
-    {
-      institution: "SoloLearn",
       url: "",
-      degree: "Full Stack Web Development",
-      duration: "2019-2021",
-    },
-    {
-      institution: "Coursera",
-      url: "",
-      degree: "Social Media Management",
+      degree: "Front-End Development Certification",
       duration: "2023",
-    },
-    {
-      institution: "OpenAI Academy",
-      url: "",
-      degree: "Prompt Engineering",
-      duration: "2024",
     },
   ],
 };
 
 const skills = {
-  title: "My Skill",
+  title: "My Skills",
   description:
-    "I am proficient in a wide range of technologies including frontend, backend, DevOps, prompt engineering, social media management, and UI/UX design with Figma.",
+    "A focused set of skills I use daily to build modern, scalable, and production-ready applications.",
   skillList: [
     {
       icon: <FaJs />,
-      name: "JavaScript",
+      name: "JavaScript / TypeScript",
     },
     {
       icon: <FaReact />,
@@ -160,48 +128,20 @@ const skills = {
       name: "Next.js",
     },
     {
-      icon: <SiRemix />,
-      name: "Remix.js",
-    },
-    {
-      icon: <SiTailwindcss />,
-      name: "Tailwind CSS",
-    },
-    {
-      icon: <SiExpress />,
-      name: "Express.js",
-    },
-    {
-      icon: <SiNestjs />,
-      name: "Nest.js",
-    },
-    {
       icon: <FaNodeJs />,
-      name: "Node.js",
+      name: "Node.js (Express)",
     },
     {
       icon: <SiPrisma />,
-      name: "Prisma",
+      name: "Prisma / MongoDB",
     },
     {
-      icon: <FaFigma />,
-      name: "Figma",
+      icon: <SiSpringboot />,
+      name: "Spring Boot",
     },
     {
-      icon: <SiDocker />,
-      name: "DevOps (Docker)",
-    },
-    {
-      icon: <SiAzuredevops />,
-      name: "Azure DevOps",
-    },
-    {
-      icon: <MdOutlinePsychology />,
-      name: "Prompt Engineering",
-    },
-    {
-      icon: <FaTwitter />,
-      name: "Social Media Management",
+      icon: <SiGit />,
+      name: "Git & GitHub",
     },
   ],
 };
