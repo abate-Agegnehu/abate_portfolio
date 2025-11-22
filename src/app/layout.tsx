@@ -12,7 +12,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Leliso",
+  title: "Abate",
   description:
     "A modern, scalable Next.js application built by a passionate software developer, focusing on performance, clean architecture, and developer experience.",
 };
