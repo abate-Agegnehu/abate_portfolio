@@ -22,7 +22,7 @@ const socials = [
 
   {
     icon: <FaLinkedinIn />,
-    path: "https://www.linkedin.com/in/abate-agegnehu-a78a84294/",
+    path: "https://www.linkedin.com/in/abateagegnehu/",
   },
   {
     icon: <FaTelegram />,
