@@ -54,6 +54,16 @@ const projects = [
   {
     number: "04",
     category: "Personal Project",
+    title: "Noka Talk",
+    describtion:
+      "An AI-powered English conversation practice app that helps you improve your speaking skills through interactive chat with Google's Gemini AI.",
+    image: "/nokatalk.png",
+    live: "https://noka-talk.vercel.app/",
+    gitub: "",
+  },
+  {
+    number: "05",
+    category: "Personal Project",
     title: "Moviemonia – Movie Landing Page",
     describtion:
       "Designed an engaging movie-themed landing page with smooth animations, responsive layout, and an attractive design.",
@@ -62,7 +72,7 @@ const projects = [
     gitub: "",
   },
   {
-    number: "05",
+    number: "06",
     category: "Personal Project",
     title: "Personal Portfolio",
     describtion:
