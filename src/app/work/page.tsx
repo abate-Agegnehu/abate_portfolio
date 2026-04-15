@@ -32,11 +32,11 @@ const projects = [
   {
     number: "02",
     category: "Client Project",
-    title: "Aymax Trading",
+    title: "ReadSea Express",
     describtion:
-      "Built a product-focused website for Aymax Trading highlighting high-quality wood products with an intuitive layout and strong branding.",
-    image: "/aymax.png",
-    live: "https://aymaxtrading.com/",
+      "RedSea Express is a modern delivery service platform built with Next.js, featuring partner registration, services showcase, and easy contact functionality for seamless customer communication and logistics management.",
+    image: "/readsea.png",
+    live: "https://red-sea-livid.vercel.app/",
     gitub: "",
   },
   {
@@ -49,10 +49,19 @@ const projects = [
     live: "https://awuratech.netlify.app/",
     gitub: "",
   },
-
-  // ---------- PERSONAL PROJECTS ----------
   {
     number: "04",
+    category: "Client Project",
+    title: "Aymax Trading",
+    describtion:
+      "Built a product-focused website for Aymax Trading highlighting high-quality wood products with an intuitive layout and strong branding.",
+    image: "/aymax.png",
+    live: "https://aymaxtrading.com/",
+    gitub: "",
+  },
+  // ---------- PERSONAL PROJECTS ----------
+  {
+    number: "05",
     category: "Personal Project",
     title: "Noka Talk",
     describtion:
@@ -62,7 +71,7 @@ const projects = [
     gitub: "",
   },
   {
-    number: "05",
+    number: "06",
     category: "Personal Project",
     title: "Moviemonia – Movie Landing Page",
     describtion:
@@ -72,7 +81,7 @@ const projects = [
     gitub: "",
   },
   {
-    number: "06",
+    number: "07",
     category: "Personal Project",
     title: "Personal Portfolio",
     describtion:
